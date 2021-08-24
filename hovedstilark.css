@@ -1,1 +1,32 @@
-
+body {
+  background-image: url('beatle.jpg');
+  background-repeat: no-repeat;
+  background-attachment: 0;
+  background-size: cover;
+  background-position: center;}
+html {
+  text-align: center;}
+h1 {
+  font-size: 30px;
+  background-color: #89FFD8;
+  margin: auto;
+  width: 30%;
+  border: 3px solid;
+  border-color: gray;
+  border-radius: 4px;
+  font-family: Georgia, serif;
+  position: fixed;}
+div {
+  column-count: 1;
+  background-color: #F9F3F8;
+  margin: auto;
+  width: 80%;}
+p {
+  margin-top: 20%;
+  font-family:Georgia, serif;}
+#thicc{
+  height: auto;
+  width: 30%;}
+#thicc:hover{
+    width:40%;
+}
