@@ -38,7 +38,9 @@ p {
   margin-bottom:5px;
   width: 80%;
   background-color:#F9F3F8;
-  font-family:Georgia, serif;}
+  font-family:Georgia, serif;
+  line-height: 1.6;
+}
 #hoved {
     background-color:#F9F3F8;
     column-count: 2;
@@ -50,16 +52,17 @@ p {
     box-shadow: 3px 3px black;
     border-radius: 4px;
     border: 3px solid gray;
+    line-height: 1.6;
 }
 #thicc{
   height: auto;
-  width: 35%;
+  width: 55%;
   margin-top:5%;
   margin-bottom: 5%;
   transition-duration: 0.3s;
 }
 #thicc:hover{
-    width: 40%;
+    width: 60%;
     margin-bottom:3.9%;
     margin-top:3%;
     opacity:0.8;
@@ -75,7 +78,7 @@ p {
 }
 #link:hover{
     color:limegreen;
-    font-size: 115%;
+    font-size: 110%;
 }
 #info {
     width: 105%;
@@ -84,11 +87,13 @@ p {
     column-count: 3;
     font-size: 18px;
     margin-bottom:-10px;
-    margin-left: -10px;
+    margin-left: -0px;
     padding-bottom:10px;
     padding-top: 10px;
     text-align: center;
 }
 #lang {
     margin-bottom: 20px;
+    line-height: 1.6;
+    text-align: left;
 }
