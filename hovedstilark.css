@@ -1,8 +1,8 @@
 body {
-  background-image: url('');
+  background-image: url('279425-vegan-food-wallpaper-top-free-vegan-food-background.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size:contain;
+  background-size:cover;
   background-position: center top;
   }
 html {
@@ -17,10 +17,25 @@ h1 {
   border-color: gray;
   border-radius: 4px;
   font-family: Georgia, serif;
+  text-shadow: 2px 2px gray;
   position:fixed;}
+h2 {
+    font-size:40px;
+    font-family:arial;
+    border: 2px solid;
+    width: 45%;
+    margin-bottom: 5px;
+    box-shadow: 2px 2px black;
+    text-align:center;
+    margin:auto;
+    background-color: #F9F3F8;
+
+}
 p {
   text-align:center;
+  font-size:22px;
   margin: auto;
+  margin-bottom:5px;
   width: 80%;
   background-color:#F9F3F8;
   font-family:Georgia, serif;}
@@ -30,21 +45,50 @@ p {
     width: 80%;
     margin: auto;
     text-align: center;
+    padding-top:15px;
+    padding-bottom:15px;
+    box-shadow: 3px 3px black;
+    border-radius: 4px;
+    border: 3px solid gray;
 }
 #thicc{
   height: auto;
-  width: 30%;
+  width: 35%;
   margin-top:5%;
   margin-bottom: 5%;
   transition-duration: 0.3s;
 }
 #thicc:hover{
     width: 40%;
-    margin-bottom:3.4%;
-    margin-top:0%;
+    margin-bottom:3.9%;
+    margin-top:3%;
     opacity:0.8;
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
 #thicc:visited{
     opacity:0;
+}
+#link {
+    color: green;
+    transition-duration: 0.3s;
+    size:100%;
+}
+#link:hover{
+    color:limegreen;
+    font-size: 115%;
+}
+#info {
+    width: 105%;
+    margin: auto;
+    background-color:teal;
+    column-count: 3;
+    font-size: 18px;
+    margin-bottom:-10px;
+    margin-left: -10px;
+    padding-bottom:10px;
+    padding-top: 10px;
+    text-align: center;
+}
+#lang {
+    margin-bottom: 20px;
 }
