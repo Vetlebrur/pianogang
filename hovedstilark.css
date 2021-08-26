@@ -98,3 +98,7 @@ p {
     line-height: 1.6;
     text-align: left;
 }
+#infoside {
+  width: 80%;
+  background-color:#F9F3F8;
+}
