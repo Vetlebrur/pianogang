@@ -6,7 +6,9 @@ body {
   background-position: center top;
   }
 html {
-  text-align: center;}
+  text-align: center;
+  overflow-x: hidden;
+}
 h1 {
   font-size: 40px;
   background-color: #89FFD8;
@@ -17,7 +19,7 @@ h1 {
   border-color: gray;
   border-radius: 4px;
   font-family: Georgia, serif;
-  text-shadow: 2px 2px gray;
+  text-shadow: 2px 2px 3px gray;
   position:fixed;}
 h2 {
     font-size:40px;
@@ -82,12 +84,11 @@ p {
 }
 #info {
     width: 105%;
-    margin: auto;
     background-color:teal;
     column-count: 3;
     font-size: 18px;
     margin-bottom:-10px;
-    margin-left: -0px;
+    margin-left: -10px;
     padding-bottom:10px;
     padding-top: 10px;
     text-align: center;
